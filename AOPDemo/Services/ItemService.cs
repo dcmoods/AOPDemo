@@ -13,7 +13,7 @@ namespace AOPDemo.Services
         [ConsoleLoggingAspect]
         public void Save(Item item)
         {
-            Console.WriteLine("Item has been saved.");
+            Console.WriteLine("Item is being saved.");
         }
     }
 }
